@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
       <link rel="stylesheet" href="css/styles.css" >
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    
       <title>Payment Form</title>
 
 
@@ -15,76 +15,61 @@
     <form action="index.html" method="post" class="form-payment">
        
       <h3>Step 1: Your details</h3>
-     <!-- <div class="userdetails"></div> -->
-        <div class="form-name">
+        <div class="input-container">
           <label for="name">Name</label>
           <input type="text" name="name" id="name" placeholder="First and last name" required >
         </div>
-        <div class="form-email">
+        <div class="input-container">
           <label for="email">Email</label>
           <input type="email" name="email" id="email" placeholder="example@domain.com" required>
         </div>
-        <div class="form-phone">
+        <div class="input-container">
             <label for="phone">Phone</label>
             <input type="tel" name="phone" id="phone" placeholder="Eg. +447500000000"  required>
         </div>
       </div>
 
           <h3>Step 2: Delivery address</h3>
-        <div class="form-address">
+        <div class="input-container">
           <label for="address">Address</label>
-          <!-- <input type="text" name="address" required> -->
           <textarea id="address" name="address" rows= "4" cols= "20"></textarea>
         </div>
-        <div class="form-postcode">
+        <div class="input-container">
           <label for="postcode">Post code</label>
           <input type="number" name="postcode" id="postcode"  required>
         </div>
-        <div class="form-country">
+        <div class="input-container">
             <label for="country">Country</label>
             <input type="text" name="country" id="country"   required>
         </div>
 
         <h3>Step 3: Card details</h3>
-      <!--
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="VISA" id="VISA" value="VISA" checked>
-          <label class="form-check-label" for="VISA">VISA</label>
-          </label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="AmEx" id="AmEx" value="AmEx">
-          <label class="form-check-label" for="AmEx">AmEx</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="Mastercard" id="Mastercard" value="Mastercard" disabled>
-          <label class="form-check-label" for="Mastercard">Mastercard</label>
-        </div> -->
+    
         
-        <div class="form-cardtype">
-            <label for="card-type">Card type</label>
-            <input type="radio" name="card-type" id= "Visa" value="Visa" > VISA
-            <input type="radio" name="card-type" id= "AmEx" value="AmEx" > AmEx
-            <input type="radio" name="card-type" id= "Mastercard" value="Mastercard" > Mastercard
+        <div class="input-container">
+            <label for="card-type">Card type</label> <br>
+            <input type="radio" class="radio" name="card-type" id= "Visa" value="Visa" > VISA
+            <input type="radio" class="radio" name="card-type" id= "AmEx" value="AmEx" > AmEx
+            <input type="radio" class="radio" name="card-type" id= "Mastercard" value="Mastercard" > Mastercard
         </div> 
     
 
 
-        <div class="form-cardnumber">
+        <div class="input-container">
           <label for="cardnumber">Card number</label>
           <input type="number" name="card-number"  id="card-number" required>
         </div>
-        <div class="form-securitycode">
+        <div class="input-container">
           <label for="securitycode">Security code</label>
           <input type="number" name="security-code" id="security"  required>
         </div>
-        <div class="form-cardholder">
+        <div class="input-container">
             <label for="cardholder">Name on Card</label>
             <input type="text" name="cardholder" id="cardholder" placeholder="Exact name as on the card"  required>
         </div>
 
         <div class="button">
-            <button type ="button">BUY IT!</button>
+            <button type ="submit" id="button-buyit" >BUY IT!</button>
             
         </div>
 
@@ -93,10 +78,6 @@
 
 
       </form>
-    
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
   
   </body>
 </html>

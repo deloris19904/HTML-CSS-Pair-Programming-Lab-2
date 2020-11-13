@@ -1,7 +1,7 @@
 form { 
 background-color:yellowgreen ;
 border-radius: 3px;
-width: 95%;
+width: 50%;
 height: 100%;
 margin: 20px;
 padding-left: 20px;
@@ -15,24 +15,30 @@ button {
     border-radius: 50px;
     color: white;
     padding: 5px 30px;
-    text-align: center;
+    text-align: center; 
     text-decoration: none;
+    display: block;
     font-size: 15px;
+    width: 150px;
     margin-top: 10px;
-    margin-left: 60px;
-    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 
 }
 
-div {
+
+.input-container {
     
     
-    border: 2px solid rgb(212, 212, 172);
-    border-radius: 3px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 50px;
     box-sizing: border-box;
+    background: rgba(255, 255, 255, .5);
      
   
 }
@@ -40,28 +46,27 @@ div {
 label {
     font-weight: bold;
     margin-right: 50px;
+    width: 200px;
+ 
    
 }
 
 input {
-    
+    border-radius: 3px;
+    border: none;
+   
+     
     }
 
+.radio {
+  
+    margin-right: 0px;
+    margin-left: 30px;
+}
+    
 
-
-
-
-/*
-.form-name 
-.form-email
-.form-phone
- { 
-
-border: 2px solid beige;
-
-
-
-
-
-} */
+textarea {
+    border-radius: 3px;
+    border: none;
+    }
 
