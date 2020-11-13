@@ -1,9 +1,57 @@
 form { 
 background-color:yellowgreen ;
-border: 15px ;
 border-radius: 3px;
-width: 100%;
+width: 95%;
+height: 100%;
+margin: 20px;
+padding-left: 20px;
+padding-right: 20px;
+
 }
+
+button {
+    background-color: #006400;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+
+}
+
+div {
+    
+    
+    border: 2px solid rgb(212, 212, 172);
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    box-sizing: border-box;
+     
+  
+}
+
+label {
+    font-weight: bold;
+    margin-right: 50px;
+   
+}
+
+input {
+    
+    }
+
+
+
+
+
+/*
 .form-name 
 .form-email
 .form-phone
@@ -15,5 +63,5 @@ border: 2px solid beige;
 
 
 
-}
+} */
 
